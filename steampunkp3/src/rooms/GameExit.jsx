@@ -31,7 +31,7 @@ export default function GameStart() {
                     "Time was never mine to master, it was ours to understand. Take what you've learned and dream beyond my limits."
                     <br />
                     <br />  
-                    With a final smile, the Professor fades into golden light. The elevator descends, glowing with newfound energy.
+                    With a final smile, the Professor fades into a soft blue light. The elevator descends, glowing with newfound energy.
                     <br />
                     <br />  
                     You didn't just escape. You unlocked a legacy.
