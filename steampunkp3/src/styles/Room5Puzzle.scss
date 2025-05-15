@@ -1,0 +1,134 @@
+
+.room5-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0f0f;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-table {
+  width: 90%;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.dropzones {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.dropzone {
+  width: 100px;
+  height: 140px;
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.dropzone img {
+  max-width: 90px;
+  max-height: 120px;
+}
+
+.plaque-pool {
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 3;
+}
+
+.draggable-plaque {
+  width: 100px;
+  height: 140px;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.draggable-plaque:active {
+  cursor: grabbing;
+  transform: scale(1.05);
+}
+
+.flux-button-wrapper {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  z-index: 4;
+}
+
+.flux-button {
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.flux-button:hover {
+  transform: scale(1.05);
+}
+
+.core-color-display {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.core-color-display.red {
+  border: 2px solid #ff4d4d;
+}
+
+.core-color-display.blue {
+  border: 2px solid #4da6ff;
+}
+
+.core-color-display.gold {
+  border: 2px solid #ffd700;
+}
+
+.controls {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  display: flex;
+  gap: 12px;
+  z-index: 5;
+}
+
+.controls button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.controls button:hover {
+  background-color: #444;
+  transform: scale(1.05);
+}
