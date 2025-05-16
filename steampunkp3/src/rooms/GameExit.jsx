@@ -39,7 +39,6 @@ export default function GameStart() {
                     <br /> 
                     Created and Coded by Kari Alcoset
                 </p>
-                <button onClick={() => navigate('/')}>Replay</button>
             </div>
         </div>
     );

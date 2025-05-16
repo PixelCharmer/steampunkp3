@@ -16,15 +16,17 @@ export default function Room5() {
 
     const clues = [
         { id: 'clue1', text: 'It was the Unveiling that began this whole journey', top: '28%', left: '22%' },
-        { id: 'clue2', text: 'The disappearance began just after the steam left', top: '42%', left: '65%' },
+        { id: 'clue2', text: 'The disappearance began just after the steam left', top: '28%', left: '70%' },
         { id: 'clue3', text: 'A collapse caused a rift', top: '61%', left: '18%' },
-        { id: 'clue4', text: 'After awakening we snapped back to reality .', top: '70%', left: '72%' }
+        { id: 'clue4', text: 'After awakening we snapped back to reality', top: '70%', left: '72%' }
     ];
 
     return (
         <div className="room5" style={{ backgroundImage: `url(${background})` }}>
-            <h2>The Flux Harmonics Chamber</h2>
-            <p>Search for the Professor’s final encoded timeline clues.</p>
+            <div className="room5-textbox">
+                <h2>The Flux Harmonics Chamber</h2>
+                <p>Search for the Professor’s final encoded timeline clues.</p>
+            </div>
 
             {clues.map(({ id, text, top, left }) => (
                 <div

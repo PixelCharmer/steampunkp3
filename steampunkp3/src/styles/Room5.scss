@@ -12,6 +12,17 @@
     padding-top: 60px;
     font-family: 'Cinzel', serif;
 
+    .room5-textbox {
+        background-color: rgba(0, 0, 0, 0.6); /* transparent black */
+        border-radius: 12px;
+        padding: 1rem 2rem;
+        text-align: center;
+        max-width: 800px;
+        margin-bottom: 2rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        align-self: center;
+    }
+
     h2 {
         font-size: 2rem;
         margin-bottom: 1rem;
